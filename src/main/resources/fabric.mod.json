@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "examplemod",
+  "name": "Example Mod",
+  "version": "1.0.0",
+  "environment": "client",
+  "depends": {
+    "fabric-command-api-v2": "*"
+  },
+  "entrypoints": {
+    "main": [
+      "org.polyfrost.example.ExampleMod"
+    ]
+  }
+}
